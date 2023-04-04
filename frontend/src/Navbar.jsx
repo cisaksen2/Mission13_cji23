@@ -42,7 +42,12 @@ function Navbar() {
           </li>
           <li class="nav-item">
             <Link to="/movielist" class="nav-link">
-              Movie List
+              Movie List (Mission #13)
+            </Link>
+          </li>
+          <li class="nav-item">
+            <Link to="/movielistv2" class="nav-link">
+              Movie List (Mission #14)
             </Link>
           </li>
         </ul>

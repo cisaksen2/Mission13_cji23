@@ -4,6 +4,7 @@ import Layout from './pages/Layout';
 import Home from './pages/Home';
 import Baconsale from './pages/Baconsale';
 import MovieList from './pages/MovieList';
+import MovieListv2 from './pages/MovieListv2';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="baconsale" element={<Baconsale />} />
           <Route path="movielist" element={<MovieList />} />
+          <Route path="movielistv2" element={<MovieListv2 />} />
         </Route>
       </Routes>
     </BrowserRouter>
